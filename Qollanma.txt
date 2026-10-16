@@ -1,0 +1,55 @@
+﻿﻿Lotin-Kirill konvertor (Excel uchun)
+Muallif: Begzodbek Akramjonov
+
+
+Assalomu alaykum!
+
+Bu kichik dastur Excel'dagi yozuvlarni lotinchadan kirillchaga va kirillchadan lotinchaga o'girib beradi. Jadvalni qaytadan yozib o'tirmaysiz: kataklarni belgilaysiz, bitta tugmani bosasiz, tamom.
+
+
+O'RNATISH
+
+Arxivdagi hamma fayllarni bitta papkaga chiqarib oling. Excel ochiq bo'lsa, yopib qo'ying. Keyin "Ornatish.bat" faylini ikki marta bosing. Windows ogohlantirish chiqarsa, baribir ishga tushirishni tanlang. Bu fayl dasturni kerakli papkaga ko'chirib qo'yadi xolos, boshqa hech narsaga tegmaydi.
+
+Endi Excel'ni ochsangiz, yuqoridagi menyuda "Lotin-Kirill" degan yangi bo'lim chiqadi. Dastur Excel har ochilganda o'zi yuklanadi, qayta o'rnatish shart emas.
+
+Agar .bat fayl ishlamasa, qo'lda ham o'rnatsa bo'ladi. Konvertor.xlam faylidan nusxa oling, papkalar oynasining manzil qatoriga
+
+    %APPDATA%\Microsoft\Excel\XLSTART
+
+deb yozib Enter bosing va ochilgan papkaga joylab qo'ying.
+
+
+ISHLATISH
+
+O'girmoqchi bo'lgan kataklarni belgilang. Butun varaq kerak bo'lsa, Ctrl+A bosing. Keyin "Lotin-Kirill" bo'limidagi "Lotin → Kirill" yoki "Kirill → Lotin" tugmasini bosing. Shu ikki tugma sichqonchaning o'ng tugmasi bilan chiqadigan menyuda ham bor.
+
+Adashib bosib yuborsangiz, qo'rqmang: "Ortga qaytarish" tugmasi yoki Ctrl+Z hammasini joyiga qaytaradi.
+
+
+BILIB QO'YING
+
+- Dastur faqat matnga tegadi. Formulalar, sonlar va sanalar qanday bo'lsa, shunday qoladi.
+
+- Sayt manzillari, e-mail, rim raqamlari (II chorak, XXI asr), avtomobil raqamlari (40 393 JBA), A4 yoki USD kabi belgilar va Microsoft, Excel kabi chet so'zlar ataylab o'zgartirilmaydi.
+
+- Asl matn joyida qolib, o'girilgani yonidagi katakda chiqishini xohlasangiz, formula yozing: =KIRILL(A1) kirillchaga, =LOTIN(A1) lotinchaga o'giradi.
+
+- "Oddiy apostrof" yonidagi katakchaga belgi qo'ysangiz, o' va g' dagi belgi klaviaturadagi oddiy ' bo'lib chiqadi. Belgi qo'yilmasa, Word'dagi konvertordagidek ‘ belgisi ishlatiladi.
+
+- Dastur ichida ruschadan kirgan 1100 dan ortiq qiyin so'zning lug'ati bor: dvigatel - двигатель, pechat - печать, retsidivist - рецидивист, mayor - майор va hokazo. Shuning uchun ц, ь, ъ harflari o'z joyida chiqadi. Qo'shimchali shakllari ham to'g'ri o'giriladi: rayonlar - районлар, retsidivistning - рецидивистнинг, dvigatellar - двигателлар (ь qo'shimcha oldidan yozilmaydi, xuddi "февралдаги" kabi).
+
+- Baribir hamma so'zni bilib bo'lmaydi. Ayniqsa chet el joy nomlarida xato chiqishi mumkin: masalan, "Ayova" "Аёва" bo'lib chiqadi, aslida esa "Айова". Shunday so'zlarni ko'rib qolsangiz, qo'lda to'g'rilab qo'ying.
+
+
+O'CHIRISH
+
+Excel'ni yoping va %APPDATA%\Microsoft\Excel\XLSTART papkasidan Konvertor.xlam faylini o'chirib tashlang. Bo'ldi.
+
+
+"manba" papkasida dasturning to'liq kodi turibdi, qiziqqan odam ochib ko'rishi mumkin.
+
+Litsenziya ma'lumotlari "Litsenziyalar.txt" faylida.
+
+Ishlaringizga omad!
+Begzodbek Akramjonov

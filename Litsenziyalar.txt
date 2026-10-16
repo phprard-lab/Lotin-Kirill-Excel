@@ -1,0 +1,65 @@
+﻿Lotin-Kirill konvertor (Excel uchun) / Uzbek Latin-Cyrillic converter for Excel
+Muallif / Author: Begzodbek Akramjonov
+
+Dastur ichidagi katta lug'at ikki ochiq loyihaning so'zlar ro'yxatidan
+tayyorlangan. Har ikkalasi MIT litsenziyasi bilan tarqatiladi va bepul
+foydalanishga ruxsat beradi. Litsenziya shartiga ko'ra ularning
+mualliflik matni quyida keltirilgan.
+
+The built-in dictionary is based on word lists from two open-source
+projects. Both are distributed under the MIT License, which permits free
+use; as that license requires, their copyright notices are reproduced
+below.
+
+
+1) fitrat - https://github.com/tahrirchi/fitrat
+------------------------------------------------------------------
+MIT License
+
+Copyright (c) Tahrirchi
+
+Authors: Mukhammadsaid Mamasaidov, Jasur Yusupov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+2) UzTranslit - https://github.com/elmurod1202/UzTransliterator
+   Mualliflar: Ulugbek Salaev, Elmurod Kuriyozov
+------------------------------------------------------------------
+MIT License
+
+Copyright (c) 2018 The Python Packaging Authority
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
